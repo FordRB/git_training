@@ -314,7 +314,8 @@ interface GigabitEthernet1/0/44
  spanning-tree portfast edge
  spanning-tree bpduguard enable
  spanning-tree guard root
- ip verify source
+shutdown
+ip verify source
 end
 
 TPSA-SW-OOBM8-3#config t
